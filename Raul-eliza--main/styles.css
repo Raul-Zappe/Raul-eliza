@@ -1,0 +1,95 @@
+/* Resetando alguns estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1d1d1d;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: #232323;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Banner */
+  #banner {
+    background-image: url('https://via.placeholder.com/1500x500/4A90E2/FFFFFF?text=Hogwarts+Castle');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  #banner h1 {
+    color: #fff;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  #banner p {
+    color: #fff;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Seção de Destaques */
+  #destaques {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #333;
+  }
+  
+  .destaque {
+    text-align: center;
+    background: #444;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+  }
+  
+  .destaque h2 {
+    color: #f1c40f;
+  }
+  
+  .destaque p {
+    color: #fff;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #232323;
+    text-align: center;
+    padding: 20px 0;
+    color: #f1c40f;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
